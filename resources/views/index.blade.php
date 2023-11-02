@@ -12,7 +12,7 @@
     <ul>
         @foreach ($ejemplos as $ejemplo)
             <li>No. {{ $ejemplo->id }}</li>
-            <li>Nombre: {{ $ejemplo->apellido }}</li>
+            <li>Nombre: {{ $ejemplo->Apellido }}</li>
             <li>Edad: {{ $ejemplo->edad }}</li>
         @endforeach
     </ul>
