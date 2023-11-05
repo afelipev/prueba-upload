@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Página de prueba</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>ESTA ES UNA PAGINA DE PRUEBA CON BASE DE DATOS PARA SUBIR A HEROKU</h1>
+    <h1>ESTA ES UNA PAGINA DE PRUEBA CON BASE DE DATOS PARA SUBIR A RIILWAY</h1>
     <h1>Lista de Ejemplos</h1>
     <ul>
         @foreach ($ejemplos as $ejemplo)
